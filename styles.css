@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+}
+h1 {
+  flex: 0 1 auto;
+  /* width: 354px;
+  left: 52px;
+  top: 115px; */
+  height: 80px;
+  font-family: "Audiowide", cursive;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+  /* or 100% */
+  letter-spacing: -0.05em;
+
+  /* night */
+  color: #2b283a;
+}
+#green-text {
+  color: #10b981;
+}
+#main-div {
+  display: flex;
+  flex-direction: column;
+  background-color: #ecfdf5;
+  height: 550px;
+  width: auto;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+}
