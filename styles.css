@@ -26,6 +26,30 @@ h1 {
 #green-text {
   color: #10b981;
 }
+p {
+  font-family: "Poiret One", cursive;
+  color: #6b7280;
+  width: 372px;
+  height: 28px;
+  left: 52px;
+  top: 205px;
+}
+button {
+  font-family: "Audiowide", cursive;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 17px 9px 15px;
+  margin-top: 20px;
+  gap: 12px;
+  width: 191px;
+  height: 42px;
+  background: #10b981;
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
 #main-div {
   display: flex;
   flex-direction: column;
@@ -35,4 +59,5 @@ h1 {
   margin: 20px;
   align-items: center;
   justify-content: center;
+  border-radius: 5px;
 }
