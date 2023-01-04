@@ -26,13 +26,20 @@ h1 {
 #green-text {
   color: #10b981;
 }
-p {
+#subtext {
   font-family: "Poiret One", cursive;
   color: #6b7280;
   width: 372px;
   height: 28px;
   left: 52px;
   top: 205px;
+}
+.password-font {
+  font-family: "Audiowide", cursive;
+  color: #10b981;
+  margin-left: 5px;
+  letter-spacing: 1px;
+  text-align: center;
 }
 button {
   font-family: "Audiowide", cursive;
@@ -50,6 +57,12 @@ button {
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
   border-radius: 6px;
 }
+hr {
+  color: #d5d4d8;
+  width: 446px;
+  height: 0px;
+  border: 1px solid #d5d4d8;
+}
 #main-div {
   display: flex;
   flex-direction: column;
@@ -60,4 +73,32 @@ button {
   align-items: center;
   justify-content: center;
   border-radius: 5px;
+  border: 2px solid white;
+}
+#text-div {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+#password-1,
+#password-2 {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 211px;
+  height: 39px;
+  background: #273549;
+  border-radius: 6px;
+  margin: 5px;
+}
+#copy-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: -20px;
+}
+#copy-btn-1,
+#copy-btn-2 {
+  margin: 5px;
 }

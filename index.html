@@ -18,8 +18,21 @@
       Generate a<br />
       <span id="green-text">random password</span>
     </h1>
-    <p>Never use an insecure password again.</p>
-    <button>Generate Password</button>
+    <p id="subtext">Never use an insecure password again.</p>
+    <hr />
+    <button onclick="generatePasswords()">Generate Password</button>
+    <div id="text-div">
+      <div id="password-1">
+        <p id="password-text-1" class="password-font"></p>
+      </div>
+      <div id="password-2">
+        <p id="password-text-2" class="password-font"></p>
+      </div>
+    </div>
+    <!-- <div id="copy-div">
+      <button onclick="copyPassword()" id="copy-btn-1">Copy</button>
+      <button onclick="copyPassword()" id="copy-btn-2">Copy</button>
+    </div> -->
   </div>
   <body>
     <script src="script.js"></script>
