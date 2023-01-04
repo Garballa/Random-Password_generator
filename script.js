@@ -102,14 +102,14 @@ function getRandomCharacter() {
 }
 function generateRandomPassword() {
   let randomPassword = "";
-  for (let i = 0; i <= passwordLength; i++) {
+  for (let i = 0; i < passwordLength; i++) {
     randomPassword += getRandomCharacter();
   }
   return randomPassword;
 }
 
 function generatePasswords() {
-  password1.innerHTML = generateRandomPassword();
-  password2.innerHTML = generateRandomPassword();
+  password1.innerText = generateRandomPassword();
+  password2.innerText = generateRandomPassword();
 }
 
